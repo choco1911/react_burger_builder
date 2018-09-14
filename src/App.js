@@ -1,19 +1,13 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import Layout from './components/Layout/Layout'
 
 class App extends Component {
-    constructor (props) {
-        super(props)
-        this.style = {
-                      width: '300px',
-                      margin: 'auto',
-                      backgroundColor: 'Peru',
-                      textAlign: 'center'}
-    }
-
     render() {
         return (
-              <div style={this.style}>
-                <h1>IT WORKS!!!</h1>
+              <div>
+                <Layout>
+                    <p>Test</p>
+                </Layout>
               </div>
         );
     }
